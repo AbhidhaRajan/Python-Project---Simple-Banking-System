@@ -6,11 +6,11 @@ Link to view my Video presentation on Google Drive:https://drive.google.com/file
  This project aims to create a command-line-based banking system that allows users to create customer accounts, log in, and perform basic banking operations. The system is designed with simplicity in mind, and it serves as a starting point for a more comprehensive banking application.
 ## Code Explanation:
 The project comprises the following components:
-## Customer Class (class Customer):
+### Customer Class (class Customer):
 The Customer class represents customer accounts. Each customer is identified by a unique customer ID and has attributes such as name, balance, and password. The __init__ method serves as the constructor for creating customer objects with these attributes.
-## Functions:
-## new_customer(): This function allows a user to create a new customer account. It prompts the user for their name, customer ID, password, and initial balance. The function checks if the customer ID is already in use and, if not, creates a new customer object and adds it to the customers dictionary.
-## deposit(customer, amount): This function lets a customer deposit money into their account. It takes a customer object and an amount as parameters, and it updates the customer's balance.
+### Functions:
+  new_customer(): This function allows a user to create a new customer account. It prompts the user for their name, customer ID, password, and initial balance. The function checks if the customer ID is already in use and, if not, creates a new customer object and adds it to the customers dictionary.
+  deposit(customer, amount): This function lets a customer deposit money into their account. It takes a customer object and an amount as parameters, and it updates the customer's balance.
 ## withdrawal(customer, amount): This function permits customers to withdraw money from their account. It checks if the amount is valid and if the customer has sufficient balance.
 ## check_balance(customer): This function displays the balance of a specific customer.
 ## customers Dictionary:
