@@ -10,9 +10,14 @@ The project comprises the following components:
 The Customer class represents customer accounts. Each customer is identified by a unique customer ID and has attributes such as name, balance, and password. The __init__ method serves as the constructor for creating customer objects with these attributes.
 ### Functions:
   new_customer(): This function allows a user to create a new customer account. It prompts the user for their name, customer ID, password, and initial balance. The function checks if the customer ID is already in use and, if not, creates a new customer object and adds it to the customers dictionary.
+
+  
   deposit(customer, amount): This function lets a customer deposit money into their account. It takes a customer object and an amount as parameters, and it updates the customer's balance.
-## withdrawal(customer, amount): This function permits customers to withdraw money from their account. It checks if the amount is valid and if the customer has sufficient balance.
-## check_balance(customer): This function displays the balance of a specific customer.
+
+ withdrawal(customer, amount): This function permits customers to withdraw money from their account. It checks if the amount is valid and if the customer has sufficient balance.
+
+ 
+ check_balance(customer): This function displays the balance of a specific customer.
 ## customers Dictionary:
 The customers dictionary stores customer objects with customer IDs as keys. 
 ### Main Program:
